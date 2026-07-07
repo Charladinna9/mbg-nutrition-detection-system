@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['ayam', 'bakso', 'buah', 'kacang', 'keju', 'kentang', 'mie', 'nasi', 'roti', 'sayur', 'susu', 'tahu', 'telur', 'tempe']
+
+roboflow:
+  workspace: charladinna-bbx
+  project: deteksi_mbg
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/charladinna-bbx/deteksi_mbg/dataset/8
